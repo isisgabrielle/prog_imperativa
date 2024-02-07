@@ -1,0 +1,18 @@
+// escreva um programa para calcular a area do retangulo
+#include <stdio.h>
+int main (){ 
+    float largura,comprimento,resultado;
+ 
+    printf ("digite a largura: ");
+    scanf ("%f",&largura);
+  
+    printf ("digite o comprimento: ");
+    scanf ("%f",&comprimento);
+ 
+    resultado = largura * comprimento ;
+
+    printf ("a area do retangulo é %.f ",resultado);
+
+    return 0;
+}
+

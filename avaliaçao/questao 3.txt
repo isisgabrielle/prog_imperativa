@@ -1,0 +1,22 @@
+//escrever um programa que receba o ano da vacina e a periocidade e exiba os anos que a pessoa vai poder tomar novamente
+#include <stdio.h>
+int main (){ 
+    float anovacina,periocidade,primeiroano,segundoano,terceiroano;
+ 
+    printf ("digite o ano que você tomou a vacina: ");
+    scanf ("%f",&anovacina);
+ 
+    printf ("digite a periocidade da vacina: ");
+    scanf ("%f", &periocidade);
+
+    primeiroano = anovacina + periocidade;
+    segundoano = primeiroano + periocidade;
+    terceiroano= segundoano + periocidade;
+ 
+    printf ("você poderá tomar mais uma dose em %.f , %.f, %.f",primeiroano,segundoano,terceiroano);
+ 
+    return 0;
+
+
+
+}

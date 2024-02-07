@@ -1,0 +1,17 @@
+// escrever um programa que receba um valor em reais o cambio e devolva o valor em dolar
+#include <stdio.h>
+int main (){ 
+    float valor,cambio,resultado;
+    printf ("digite o valor monetario: ");
+    scanf ("%f",&valor);
+ 
+    printf ("digite o cambio: ");
+    scanf ("%f", &cambio);
+
+    resultado = valor * cambio;
+
+    printf ("esse valor será de %.f dolares",resultado);
+   
+    return 0;
+
+}

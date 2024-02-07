@@ -1,0 +1,23 @@
+// faça um programa q diga em quantos dias a pessoa alcançará o peso ideal
+#include <stdio.h>
+int main () { 
+    float pesoAtual,pesoIdeal,perdaMensal,resultado;
+
+    printf ("digite seu peso atual: ");
+    scanf ("%f",&pesoAtual);
+
+    printf ("digite seu peso ideal: ");
+    scanf ("%f", &pesoIdeal);
+
+    printf ("digite sua perda mensal: ");
+    scanf ("%f", &perdaMensal);
+
+    resultado = (pesoAtual - pesoIdeal)/ perdaMensal * 30;
+
+    printf ("você alcançará seu peso ideal em %.f dias",resultado);
+  
+    return 0;
+
+
+
+}

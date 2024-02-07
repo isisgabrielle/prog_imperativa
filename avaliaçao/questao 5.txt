@@ -1,0 +1,19 @@
+// faça um programa q receba a velocidade media, a distancia e de o tempo que vai demorar pra percorrer
+#include <stdio.h>
+int main (){
+ 
+   float distancia,velocidademedia,resultado;
+ 
+   printf ("digite os quilometros você quer percorrer: ");
+   scanf ("%f",&distancia);
+ 
+   printf ("digite a velocidade media em km/h: ");
+   scanf ("%f", &velocidademedia);
+ 
+   resultado = distancia/ velocidademedia ;
+ 
+   printf ("o tempo gasto será %.f horas",resultado);
+
+   return 0;
+
+}

@@ -1,0 +1,18 @@
+// faça um programa q leia um numero inteiro e devolva seu antecessor e sucessor
+#include <stdio.h>
+int main () { 
+   int NInteiro, antecessor,sucessor;
+
+   printf ("digite o numero: ");
+   scanf ("%d",&NInteiro);
+
+   antecessor = NInteiro - 1;
+   sucessor = NInteiro + 1;
+
+   printf ("o seu antecessor e seu sucessor são respectivamente %.d e %.d\n",antecessor, sucessor);
+
+   return 0;
+
+
+
+}
