@@ -3,16 +3,13 @@
 // E usar uma constante para definição de π. Recomenda-se o uso de função e/ou constante nativa, se houver.
 
 #include <stdio.h>
-int quadrado(int raio)
-{
+int quadrado(int raio){
     return raio * raio;
 }
-int area(int raio)
-{
+int area(int raio){
     return quadrado(raio) * 3.14;
 }
-int main()
-{
+int main(){
     int raio;
     printf("digite o raio do circulo: ");
     scanf("%d", &raio);

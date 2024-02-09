@@ -2,8 +2,7 @@
 //dois valores dados. São A e B, bem como N, dados pelo usuário. Atendendo a condição estabelecida, emitir mensagem “ATENDE
 // CONDIÇÃO”; caso contrário, exibir: “NÃO ATENDE CONDIÇÃO”.
 #include <stdio.h>
-int main()
-{
+int main(){
     int numeroint,a,b,resto, resto2;
     printf("digite o numero inteiro: ");
     scanf("%d", &numeroint);

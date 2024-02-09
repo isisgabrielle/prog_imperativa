@@ -5,36 +5,36 @@ int main() {
   float nota1, nota2, nota3, nota4, media, medianova; 
   char continuar;
   while (1) {
-  printf ("digite a primeira nota: ");
-  scanf("%f",&nota1);
-  printf("digite a segunda nota: ");
-  scanf ("%f",&nota2);
-  printf("digite a terceira nota: ");
-  scanf ("%f",&nota3);
+    printf ("digite a primeira nota: ");
+    scanf("%f",&nota1);
+    printf("digite a segunda nota: ");
+    scanf ("%f",&nota2);
+    printf("digite a terceira nota: ");
+    scanf ("%f",&nota3);
   media = (nota1+ nota2+ nota3)/3;
-  if (media>= 7) {
-    printf("o aluno foi aprovado");
+    if (media>= 7) {
+     printf("o aluno foi aprovado");
   }
-  else if (media<= 3){
-   printf ("o aluno foi reprovado");}
-  else {
-    printf("o aluno tem direito a fazer a quarta avaliacao\n");
-    printf("digite a nota da quarta avaliacao: ");
-    scanf("%f", &nota4); }
-    medianova = (nota1+ nota2+ nota3+ nota4)/4;
+    else if (media<= 3){
+      printf ("o aluno foi reprovado");}
+    else {
+      printf("o aluno tem direito a fazer a quarta avaliacao\n");
+      printf("digite a nota da quarta avaliacao: ");
+      scanf("%f", &nota4); }
+  medianova = (nota1+ nota2+ nota3+ nota4)/4;
     if (medianova>=5){
-    printf ("o aluno foi aprovado");}
+      printf ("o aluno foi aprovado");}
     else{
-    printf("o aluno foi reprovado");}
-    printf("\n deseja verificar a situacao de outro aluno? S ou N): ");
-    scanf(" %c", &continuar);
+      printf("o aluno foi reprovado");}
+      printf("\n deseja verificar a situacao de outro aluno? S ou N): ");
+      scanf(" %c", &continuar);
 
-        if (continuar != 'S' && continuar != 's') {
-            break;
+    if (continuar != 'S' && continuar != 's') {
+    break;
         }
-    }
+         }
 
-    return 0;
+return 0;
 }
 
 

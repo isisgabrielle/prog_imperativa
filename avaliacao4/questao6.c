@@ -11,7 +11,6 @@ int main () {
     }
     else { 
       break;
-
     }
     if (port >= 40 && mat >= 21 && red>= 7) { 
       aprovados++;

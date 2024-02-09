@@ -3,34 +3,30 @@ int main () {
   int port, mat;
   float red; 
   float aprovados = 0;
-  char continuar;
-
+  char sair;
   printf ("quantos acertos em portugues matematica e a nota de redacao:\n ");
-
   while (1){ 
-    
     scanf("%d",&port);
-
-    if (port<0) {
+  if (port<0) {
     printf("Deseja sair? (S para Sim / N para Nao): ");
-            scanf(" %c", &continuar);  // Note the space before %c to consume any newline characters
-            if (continuar == 'S' || continuar == 's') {
-                break;
-            } else {
-                continue;
+    scanf(" %c", &sair);  // Note the space before %c to consume any newline characters
+  if (sair == 'S' || sair == 's') {
+     break;
+     }
+  else {
+       continue;
             }
-
   }
    
-        scanf("%d", &mat);
-        scanf("%f", &red);
-
-        if (port >= 40 && mat >= 21 && red >= 7) {
-            aprovados++;
-        } else {
-            aprovados = aprovados ;
+scanf("%d", &mat);
+scanf("%f", &red);
+ if (port >= 40 && mat >= 21 && red >= 7) {
+     aprovados++;
+ } 
+ else {
+       aprovados = aprovados ;
         }
 }
-  printf("o numero de aprovados eh %2.f",aprovados);
-  return 0;
+printf("o numero de aprovados eh %2.f",aprovados);
+return 0;
 }

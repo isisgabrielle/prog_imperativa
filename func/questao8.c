@@ -3,22 +3,20 @@
 
 #include <stdio.h>
 
-    float resultado (float valorReal, float taxadolar, float taxaeuro, float *valordolar, float *valoreuro){ 
-        *valordolar = valorReal/taxadolar, *valoreuro = valorReal/taxaeuro ;
-    }
+float resultado (float valorReal, float taxadolar, float taxaeuro, float *valordolar, float *valoreuro){ 
+     *valordolar = valorReal/taxadolar, *valoreuro = valorReal/taxaeuro ;
+}
     
 
-    int main() { 
-        float valorReal, taxacambiod,taxaeuro, valordolar,valoreuro;
-        printf("digite o valor em reais: ");
-        scanf ("%f",&valorReal);
-        printf("digite a taxa de cambio fixa do dolar : ");
-        scanf ("%f",&taxacambiod);
-        printf("digite a taxa fixa do euro : ");
-        scanf ("%f",&taxaeuro);
-        resultado(valorReal,taxacambiod, taxaeuro, &valordolar,&valoreuro);
-        printf ("esse valor em dolar equivale a %.2f\n", valordolar);
-        printf ("esse valor em euro equivale a %.2f", valoreuro);
-        
-
-        }
+int main() { 
+     float valorReal, taxacambiod,taxaeuro, valordolar,valoreuro;
+     printf("digite o valor em reais: ");
+     scanf ("%f",&valorReal);
+     printf("digite a taxa de cambio fixa do dolar : ");
+     scanf ("%f",&taxacambiod);
+     printf("digite a taxa fixa do euro : ");
+     scanf ("%f",&taxaeuro);
+     resultado(valorReal,taxacambiod, taxaeuro, &valordolar,&valoreuro);
+     printf ("esse valor em dolar equivale a %.2f\n", valordolar);
+     printf ("esse valor em euro equivale a %.2f", valoreuro);
+}

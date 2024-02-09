@@ -1,5 +1,4 @@
 // diz quantas caixas precisam ser adquiridas
-
     #include <stdio.h>
     #include <math.h>
 

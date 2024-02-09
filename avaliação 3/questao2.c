@@ -4,15 +4,13 @@
 #include <stdio.h>
 #include <math.h>
 
-int quociente(int dividendo, int divisor)
-{
+int quociente(int dividendo, int divisor){
     float Divisao;
     Divisao = (float)dividendo / divisor;
     return (int)Divisao;
 }
 
-int main()
-{
+int main(){
     int gatos, resto;
     printf("digite o numero de gatos capturados: ");
     scanf("%d", &gatos);

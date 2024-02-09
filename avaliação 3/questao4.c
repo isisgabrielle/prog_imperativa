@@ -3,8 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main()
-{
+int main(){
     int numero, primeiro,segundo,terceiro;
     printf("digite um numero inteiro de tres digitos: ");
     scanf("%d", &numero);

@@ -1,8 +1,7 @@
 // ler peso e altura e exibir o imc, e determinar o nivel de obesidade da pessoa
 #include <stdio.h>
-int main()
-{
-    float peso, altura, imc;
+int main(){
+float peso, altura, imc;
     printf("digite seu peso (massa): ");
     scanf("%f", &peso);
     printf("digite sua altura: ");

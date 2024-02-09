@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <ctype.h>
 char menu() {
-      char opcao;
+char opcao;
       printf("escolha uma opcao do sistema de numeracao decimal: \n");
       printf("U- unidade\n");
       printf("D- dezena\n");
@@ -12,25 +12,27 @@ char menu() {
       printf("M- unidade de milhar\n");
       printf("Z- dezena de milhar\n");
       scanf("%c", &opcao);
-      return opcao;
+return opcao;
 }
 
 
  
-int unidade(int n1) { printf("a unidade desse numero eh %d", n1 % 10); }
+int unidade(int n1) { 
+    printf("a unidade desse numero eh %d", n1 % 10); 
+}
 
 int dezena(int n1) {
-      printf("a dezena desse numero eh %d", (n1 / 10) % 10);
+    printf("a dezena desse numero eh %d", (n1 / 10) % 10);
 }
 
 int centena(int n1) {
-      printf("a centena desse numero eh %d", (n1 / 100) % 10);
+    printf("a centena desse numero eh %d", (n1 / 100) % 10);
 }
 int umilhar(int n1) {
-      printf("a unidae de milhar desse numero eh %d", (n1 / 1000) % 10);
+    printf("a unidae de milhar desse numero eh %d", (n1 / 1000) % 10);
 }
 int dmilhar(int n1) {
-      printf("a dezena de milhar desse numero eh %d", (n1 / 10000) % 10);
+    printf("a dezena de milhar desse numero eh %d", (n1 / 10000) % 10);
 }
 
 int main() {
@@ -53,8 +55,9 @@ int main() {
             case 'Z': dmilhar(n1); break;
             default: printf("ERRO, voce escolheu um opcao nao existente");
             }
-      else {printf("o numero nao atende aos requisitos");
+      else {
+      printf("o numero nao atende aos requisitos");
       }
       return 0;
-      }
+}
       

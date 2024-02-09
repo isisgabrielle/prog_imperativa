@@ -7,7 +7,7 @@ int dias,meses;
 printf("digite a quantidade de dias: ");
 scanf("%d", &dias);
 meses = 0;
-    while (dias >= 30) {
+while (dias >= 30) {
         dias -= 30;
         meses++;
     }

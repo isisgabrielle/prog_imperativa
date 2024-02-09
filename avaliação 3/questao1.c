@@ -3,15 +3,13 @@
 #include <stdio.h>
 #include <math.h>
 
-int quociente(int dividendo, int divisor)
-{
+int quociente(int dividendo, int divisor){
     float Divisao;
     Divisao = (float)dividendo / divisor;
     return (int)Divisao;
 }
 
-int main()
-{
+int main(){
     int inscritos, resto;
     printf("digite o numero de inscritos no passeio ao museu: ");
     scanf("%d", &inscritos);

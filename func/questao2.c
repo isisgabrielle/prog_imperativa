@@ -2,14 +2,14 @@
 
     #include <stdio.h>
     #include <math.h>
-    int quociente(int dividendo, int divisor)
-    {
-    float Divisao;
-    Divisao = (float) dividendo / divisor;
-    Divisao = ceil(Divisao);
-    return (int) Divisao;
+    int quociente(int dividendo, int divisor){
+        float Divisao;
+        Divisao = (float) dividendo / divisor;
+        Divisao = ceil(Divisao);
+        return (int) Divisao;
     }
-    int main() { int alunostotal,capacidade;
+    int main() { 
+        int alunostotal,capacidade;
         
         printf("qual eh o numero total de alunos matriculados? ");
         scanf ("%d",&alunostotal);

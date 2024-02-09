@@ -4,8 +4,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main()
-{
+int main(){
     int pnota, snota, tnota, media;
     printf("digite a primeira nota: ");
     scanf("%d", &pnota);
